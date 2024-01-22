@@ -1,0 +1,67 @@
+/* #region common */
+:root{
+    --boolando-primary:rgba(255, 105, 0, 1);
+    --boolando_secondary: rgba(0, 128, 0, 1);
+    --booladno-dark: rgba(26, 26, 26, 1);
+    --boolando-accent: rgba(255, 0, 0, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    padding: 0.8rem 0;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+
+}
+
+/* #region utilities */
+
+.padding-right{
+    padding-right: 0.5rem;
+}
+
+.padding-left{
+    padding-left: 0.5rem;
+}
+
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #region site_header */
+
+#site_header{
+    background-color: var(--boolando-primary);
+}
+
+.logo{
+    width: 10%;
+}
+
+.icon{
+    text-align: end;
+    
+}
+
+
+/* #region site_main */
+
+/* #region site_footer */
