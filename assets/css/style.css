@@ -31,6 +31,13 @@ ul{
 
 }
 
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #endregion common */
+
 /* #region utilities */
 
 .padding-right{
@@ -40,12 +47,8 @@ ul{
 .padding-left{
     padding-left: 0.5rem;
 }
+/* #endregion utilities */
 
-
-.d-flex{
-    display: flex;
-    justify-content: space-between;
-}
 
 /* #region site_header */
 
@@ -62,18 +65,20 @@ ul{
     
 }
 
+/* #endregion site_header */
+
 
 /* #region site_main */
 
 .products{
     gap: 1rem;
     padding-top: 2rem;
+    position: relative;
 }
 
 .product{
     width: 33%;
     height: 400px;
-    background-color: blue;
     position: relative;
 }
 
@@ -89,7 +94,7 @@ ul{
     background-repeat: no-repeat;
 }
 
-.coma{
+.come{
     background-image: url(../img/3.webp);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -99,13 +104,34 @@ ul{
     background-color: var(--boolando-accent);
     position: absolute;
     bottom: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    padding: 0.2rem 0.5rem;
 }
+
 
 .eco{
     background-color: var(--boolando_secondary);
     position: absolute;
     bottom: 20px;
     left: 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    padding: 0.2rem 0.5rem;
+
+}
+
+.eco_top{
+    background-color: var(--boolando_secondary);
+    position: absolute;
+    bottom: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    padding: 0.2rem 0.5rem;
+
 }
 
 .hearts{
@@ -135,6 +161,50 @@ ul{
     left: 68%;
 }
 
+
+.products_2{
+    gap: 1rem;
+    padding-top: 4rem;
+    position: relative;
+}
+
+
+.description_4{
+    position: absolute;
+    top: 10%;
+}
+
+.description_5{
+    position: absolute;
+    top: 0;
+    left: 34%;
+}
+
+.description_6{
+    position: absolute;
+    top: 0;
+    left: 68%;
+}
+
+.levis_2{
+    background-image: url(../img/4.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.maya{
+    background-image: url(../img/5.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.espirit{
+    background-image: url(../img/6.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
 .red{
     color: red;
 }
@@ -143,4 +213,9 @@ ul{
     color: gray;
     text-decoration: line-through;
 }
+
+
+
+
+
 /* #region site_footer */
