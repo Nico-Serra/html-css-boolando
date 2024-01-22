@@ -34,7 +34,7 @@ ul{
 .d-flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: ;
 }
 
 /* #endregion common */
@@ -235,4 +235,29 @@ ul{
 
 .social{
     padding-left: 0.5rem;
+}
+
+/* #endregion site_footer */
+
+.levis:hover{
+    background-image: url(../img/1b.webp);
+}
+.guess:hover{
+    background-image: url(../img/2b.webp);
+}
+.come:hover{
+    background-image: url(../img/3b.webp);
+}
+.levis_2:hover{
+    background-image: url(../img/4b.webp);
+}
+.maya:hover{
+    background-image: url(../img/5b.webp);
+}
+.espirit:hover{
+    background-image: url(../img/6b.webp);
+}
+
+.hearts:hover{
+    color: red;
 }
