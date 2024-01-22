@@ -20,7 +20,8 @@ body{
 .container{
     margin: auto;
     width: 80%;
-    padding: 0.8rem 0;
+    padding: 0.5rem 0;
+    position: relative;
 }
 
 ul{
@@ -64,4 +65,82 @@ ul{
 
 /* #region site_main */
 
+.products{
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.product{
+    width: 33%;
+    height: 400px;
+    background-color: blue;
+    position: relative;
+}
+
+.levis{
+    background-image: url(../img/1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.guess{
+    background-image: url(../img/2.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.coma{
+    background-image: url(../img/3.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sales{
+    background-color: var(--boolando-accent);
+    position: absolute;
+    bottom: 20px;
+}
+
+.eco{
+    background-color: var(--boolando_secondary);
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.hearts{
+    text-align: center;
+    font-size: 20px;
+    width: 5%;
+    background-color: white;
+    position: absolute;
+    left: 95%;
+    top: 10px;
+}
+
+.description{
+    position: absolute;
+    top: 0;
+}
+
+.description_2{
+    position: absolute;
+    top: 0;
+    left: 34%;
+}
+
+.description_3{
+    position: absolute;
+    top: 0;
+    left: 68%;
+}
+
+.red{
+    color: red;
+}
+
+.gray{
+    color: gray;
+    text-decoration: line-through;
+}
 /* #region site_footer */
