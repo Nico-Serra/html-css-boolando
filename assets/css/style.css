@@ -34,6 +34,7 @@ ul{
 .d-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* #endregion common */
@@ -42,10 +43,12 @@ ul{
 
 .padding-right{
     padding-right: 0.5rem;
+    font-size: 10px;
 }
 
 .padding-left{
     padding-left: 0.5rem;
+    font-size: 10px;
 }
 /* #endregion utilities */
 
@@ -69,6 +72,10 @@ ul{
 
 
 /* #region site_main */
+
+#site_main{
+    padding-bottom: 6rem;
+}
 
 .products{
     gap: 1rem;
@@ -214,8 +221,18 @@ ul{
     text-decoration: line-through;
 }
 
-
-
-
+/* #endregion site_main */
 
 /* #region site_footer */
+#site_footer{
+    background-color: var(--booladno-dark);
+    color: white;
+    padding: 1rem 0;
+}
+.srl{
+    font-size: 10px;
+}
+
+.social{
+    padding-left: 0.5rem;
+}
