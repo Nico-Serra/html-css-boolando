@@ -57,6 +57,9 @@ ul{
 
 #site_header{
     background-color: var(--boolando-primary);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .logo{
@@ -75,6 +78,7 @@ ul{
 
 #site_main{
     padding-bottom: 6rem;
+    padding-top: 1.5rem;
 }
 
 .products{
@@ -144,10 +148,10 @@ ul{
 .hearts{
     text-align: center;
     font-size: 20px;
-    width: 5%;
+    width: 10%;
     background-color: white;
     position: absolute;
-    left: 95%;
+    right: 0;
     top: 10px;
 }
 
